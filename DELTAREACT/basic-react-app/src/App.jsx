@@ -1,7 +1,24 @@
 import "./App.css"
 
+
+
+function Description(){
+  return(
+    <h3>I am the description</h3>
+  );
+}
+
 function App() {
-  return <button>Hello World!</button>
+  return (
+    <div>
+      <Title />
+      <Description/> 
+      <Title />
+      <Description/> 
+    </div>
+   
+);
+
 }
 
 export default App
