@@ -1,7 +1,7 @@
 import "./App.css"
 
 import Title  from "./Title.jsx";
-
+import ProductTab from "./ProductTab.jsx";
 
 function Description(){
   return(
@@ -11,13 +11,9 @@ function Description(){
 
 function App() {
   return (
-    <>
-      <Title /> 
-      <Title />
-    </>
-   
+   <ProductTab />
 );
 
 }
 
-export default App
+export default App;
