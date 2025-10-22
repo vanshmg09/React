@@ -1,8 +1,9 @@
 function Title() {
+    let name = "vnash";
   return (
     <div>
-        <h1>This is Title</h1>
-        <h3>I am the description</h3>
+        <p>Hi, {name.toUpperCase()}</p>
+        <p>2 * 2 = {2 * 2}</p>
     </div>
   );
 
