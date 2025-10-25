@@ -20,8 +20,9 @@ import MsgBox from "./MsgBox.jsx";
 function App() {
   return(
     <>
-    <MsgBox username="vansh" textColor="pink"/>
-     <MsgBox username="Apna College" textColor="yellow"/>
+    <MsgBox userName="vansh" textColor="pink"/>
+    <MsgBox userName="Apna College" textColor="blue"/>
+    <MsgBox userName="India" textColor="orange"/>
     </>
     
   )
