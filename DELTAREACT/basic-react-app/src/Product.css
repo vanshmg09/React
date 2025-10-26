@@ -2,5 +2,8 @@
     border: 1px solid rgb(23, 23, 23);
     border-radius: 14px;
     margin-bottom: 10px;
-    padding: 0 10px 0 10px ;
+    /* padding: 0 10px 0 10px ; */
+    margin-left: 15px;
+    width: 200px;
+    height: 160px;
 }
