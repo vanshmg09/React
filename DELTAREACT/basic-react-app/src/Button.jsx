@@ -1,5 +1,6 @@
-function handelClick() {
+function handelClick(event) {
     console.log("Hello");
+    console.log(event);
 }
 
 function handelMouseOver() {
