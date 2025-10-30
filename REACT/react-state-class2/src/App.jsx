@@ -1,20 +1,30 @@
 import './App.css'
 import LudoBoard from './LudoBoard'
 import TodoList from './TodoList'
-import Lottery from './Lottery'
-import { sum } from './helper'
+import Lottery from './Lottery/Lottery'
+import { sum } from './Lottery/helper'
+import Form from './Form'
 
+//  LOTTERY
 
-function App() {
+// function App() {
 
-  let winCondition = (ticket) => {
-    return ticket[0] === 0 ;
-  }
+//   let winCondition = (ticket) => {
+//     return ticket[0] === 0 ;
+//   }
 
+//   return (
+//     <>
+//       <Lottery n={3} winCondition={winCondition}/>
+//     </>
+//   )
+// }
+
+// FORM
+
+function App(){
   return (
-    <>
-      <Lottery n={3} winCondition={winCondition}/>
-    </>
+    <Form/>
   )
 }
 
