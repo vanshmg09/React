@@ -5,6 +5,7 @@ import Lottery from './Lottery/Lottery'
 import { sum } from './Lottery/helper'
 import Form from './Form'
 import CommentsForm from './CommentsForm'
+import Comment from './Comment'
 
 //  LOTTERY
 
@@ -31,9 +32,20 @@ import CommentsForm from './CommentsForm'
 
 // COMMENT FORM
 
+// function App(){
+//   return(
+//     <CommentsForm/>
+//   )
+// }
+
+//  COMMENT
+
 function App(){
   return(
-    <CommentsForm/>
+    <>
+      <Comment/>
+    </>
+    
   )
 }
 
