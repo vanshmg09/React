@@ -4,6 +4,7 @@ import TodoList from './TodoList'
 import Lottery from './Lottery/Lottery'
 import { sum } from './Lottery/helper'
 import Form from './Form'
+import CommentsForm from './CommentsForm'
 
 //  LOTTERY
 
@@ -22,9 +23,17 @@ import Form from './Form'
 
 // FORM
 
+// function App(){
+//   return (
+//     <Form/>
+//   )
+// }
+
+// COMMENT FORM
+
 function App(){
-  return (
-    <Form/>
+  return(
+    <CommentsForm/>
   )
 }
 
